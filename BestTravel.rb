@@ -3,7 +3,7 @@ def choose_best_sum(t, k, ls)
 end
 
 
-# The above will passing below test
+# The above has passed all the tests
 
 =begin 
 Test.describe("choose_best_sum") do
