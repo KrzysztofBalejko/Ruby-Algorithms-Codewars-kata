@@ -1,7 +1,5 @@
 def get_planet_name(id)
-hash = { "Mercury" => 1, "Venus" => 2, "Earth" => 3, "Mars" => 4,
-"Jupiter" => 5, "Saturn" => 6, "Uranus" => 7, "Neptune" => 8 }
-  hash.key(id)
+  [0, "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" ][id]
 end
 
 #The above has passed all the tests
