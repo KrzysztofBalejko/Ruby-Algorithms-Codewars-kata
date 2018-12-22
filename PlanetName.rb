@@ -1,20 +1,16 @@
 def get_planet_name(id)
-    case id
-    when id = 1
-       "Mercury"
-    when id = 2
-       "Venus"
-    when id = 3
-       "Earth"
-    when id = 4
-       "Mars"
-    when id = 5
-       "Jupiter"
-    when id = 6
-       "Saturn"
-    when id = 7
-       "Uranus"
-    when id = 8
-       "Neptune"
-   end
+hash = { "Mercury" => 1, "Venus" => 2, "Earth" => 3, "Mars" => 4,
+"Jupiter" => 5, "Saturn" => 6, "Uranus" => 7, "Neptune" => 8 }
+  hash.key(id)
 end
+
+#The above has passed all the tests
+
+=begin
+  Test.assert_equals(get_planet_name(2), 'Venus')
+  Test.assert_equals(get_planet_name(5), 'Jupiter')
+  Test.assert_equals(get_planet_name(3), 'Earth')
+  Test.assert_equals(get_planet_name(4), 'Mars')
+  Test.assert_equals(get_planet_name(8), 'Neptune')
+  Test.assert_equals(get_planet_name(1), 'Mercury')
+=end
