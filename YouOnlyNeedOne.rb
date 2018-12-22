@@ -1,6 +1,5 @@
 def check(arr,element)
-  return true if arr.include? element 
-  false
+  arr.include? element
 end
 
 #The above has passed all the tests
