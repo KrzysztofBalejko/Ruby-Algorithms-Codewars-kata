@@ -1,29 +1,7 @@
-# First solution using if statement
-
 def unique_in_order(iterable)
-
-  if iterable.is_a?(Array)
-      iterable.uniq
-  else
-      iterable.split(/([a-zA-Z0-9])\1+/).join('').split('')
-  end
+  iterable.is_a?(Array) ? iterable.uniq : iterable.split(/([a-zA-Z0-9])\1+/).join('').split('')
 end
 
-print unique_in_order([1,2,2,3,3])
+# The above has passed all the tests
 
-# Another solution using case expression and gsub method instead of split
-
-=begin
-
-def unique_in_order(iterable)
-  case iterable
-    when String
-      iterable.gsub(/(.)\1*/, '\1').split('')
-    when Array
-      iterable.uniq
-  end
-end
-
-print unique_in_order([1,2,2,3,3])
-
-=end
+# Test.assert_equals(unique_in_order('AAAABBBCCDAABBB'), ['A','B','C','D','A','B'])
