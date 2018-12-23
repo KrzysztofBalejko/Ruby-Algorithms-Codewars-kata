@@ -1,7 +1,7 @@
 # Ruby-Algorithms-Codewars-kata
-My solutions to codewars kata. 
+**My solutions to codewars kata.** 
 
-Each kata challange has 2 files:
+Each kata challenge has 2 files:
 - Ruby file with both code and basic test it is passing
 - Text file with detailed task description
 
