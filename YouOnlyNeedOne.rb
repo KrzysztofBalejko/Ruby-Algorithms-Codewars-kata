@@ -2,7 +2,7 @@ def check(arr,element)
   arr.include? element
 end
 
-#The above has passed all the tests
+# The above has passed all the tests
 
 =begin
 describe "Basic tests" do

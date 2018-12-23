@@ -2,7 +2,7 @@ def get_planet_name(id)
   [0, "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" ][id]
 end
 
-#The above has passed all the tests
+# The above has passed all the tests
 
 =begin
   Test.assert_equals(get_planet_name(2), 'Venus')

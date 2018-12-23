@@ -13,4 +13,9 @@ def nbMonths(old, new, savings, percent)
   [months, (current_savings + old - new).round]
 end
 
-print nbMonths(2000, 8000, 1000, 1.5) # Expected result[6, 766])
+# The above has passed all the tests
+
+=begin
+Test.assert_equals(nbMonths(2000, 8000, 1000, 1.5), [6, 766])
+Test.assert_equals(nbMonths(12000, 8000, 1000, 1.5) ,[0, 4000])
+=end
