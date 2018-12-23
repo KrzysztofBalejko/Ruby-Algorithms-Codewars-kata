@@ -1,4 +1,4 @@
-TASK:
+Task:
 
 
 Some of you might remember spending afternoons playing Street Fighter 2 in some Arcade back in the 90s or emulating it nowadays with the numerous emulators for retro consoles.
@@ -25,13 +25,15 @@ As you might remember from the game, the selection cursor rotates horizontally b
 
 Instead, if I try to go further up from the upmost or further down from the downmost, I'll just stay where I am located (examples: you can't go lower than lowest row: Ken, Chun Li, Zangief, Dhalsim, Sagat and M.Bison in the above image; you can't go upper than highest row: Ryu, E.Honda, Blanka, Guile, Balrog and Vega in the above image).
 
-Test
+
+Test:
 
 For this easy version the fighters grid layout and the initial position will always be the same in all tests, only the list of moves change.
 
 Notice : changing some of the input data might not help you.
 
-Examples
+
+Examples:
 
 1.
 
